@@ -3,13 +3,13 @@
 fn main() {
     // 1. IF-else contitional statement:
     let number = 0;
-
-    if number > 0 {
-        println!("The number is positive.");
-    } else if number < 0 {
-        println!("The number is negative.");
+    
+    if number == 0 {
+        println!("ZERO");
+    } else if (number >= 1 && number <= 10) || (number == 101) {
+        println!("Good Number!!!");
     } else {
-        println!("The number is zero.");
+        println!("Default Value!!!")
     }
     
     // 2. Loop
